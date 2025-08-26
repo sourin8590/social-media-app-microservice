@@ -1,12 +1,12 @@
 version: '3.8'
 
 services:
-  api-getway:
-    build: ./api-getway
+  api-gateway:
+    build: ./api-gateway
     ports:
       - "3000:3000"
     env_file:
-      - ./api-getway/.env
+      - ./api-gateway/.env
     depends_on:
       - redis
       - rabbitmq
