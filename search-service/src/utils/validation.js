@@ -1,4 +1,4 @@
-const Joi = require("Joi");
+const Joi = require("joi");
 
 const validateCreatePost = (data) => {
   // console.log("data", data)

@@ -9,7 +9,7 @@ const logger = require("./utils/logger");
 const dbConnect = require("./utils/dbConnect");
 const {
   authenticateRequest,
-} = require("../../media-service/src/middleware/authMiddleware");
+} = require("./middleware/authMiddleware");
 const { connectToRabbitMQ } = require("./utils/rabbitmq");
 
 const app = express();
